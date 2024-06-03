@@ -16,11 +16,12 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: 'open sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    min-height: 100vh;
 }
 
 .content{
@@ -45,8 +46,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     gap: 16px;
+    width: 80%;
 }
 
 .textos h1{
@@ -89,17 +91,18 @@ footer{
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    width: 626px;
+    width: 100%;
 }
 
 .footer-content{
-    width: 391px;
+    width: 100%;
     border-top: 1px solid #ECEFF2;
     padding-top: 14px;
+
     display: flex;
     justify-content: center;
+
+
     gap: 42px;
 }
 
@@ -114,4 +117,9 @@ footer img.wave{
     height: 104px;
 }
 
-
+@media (max-width: 500px){
+    .imagem img{
+        width: 213px;
+        height: 145px;
+    }
+}
