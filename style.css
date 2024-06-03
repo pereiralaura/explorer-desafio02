@@ -96,14 +96,17 @@ footer{
 
 .footer-content{
     width: 100%;
-    border-top: 1px solid #ECEFF2;
-    padding-top: 14px;
-
     display: flex;
     justify-content: center;
+}
 
-
+.footer-links{
+    display: flex;
+    justify-content: center;
     gap: 42px;
+    border-top: 1px solid #ECEFF2;
+    width: 391px;
+    padding-top: 14px;
 }
 
 .footer-content a{
@@ -121,5 +124,8 @@ footer img.wave{
     .imagem img{
         width: 213px;
         height: 145px;
+    }
+    .footer-links{
+        width: 70%;
     }
 }
