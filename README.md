@@ -58,6 +58,7 @@ Desafio intermediário, proposto pela Rocketseat, para recriar uma aplicação
 
 <br>
 [Acesse o projeto finalizado, online] (https://pereiralaura.github.io/explorer-desafio02/)
+<br>
 [Participe da formação também] (https://app.rocketseat.com.br/journey/explorer)
 
 ## 🔖 Layout
